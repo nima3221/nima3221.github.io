@@ -1,0 +1,19 @@
+p{
+  color:black;
+}
+
+a:link{
+  color:red;
+}
+
+a:visited{
+  color:gray;
+}
+
+a:hover{
+  color:darkred;
+}
+
+a:active{
+  color:red;
+}
