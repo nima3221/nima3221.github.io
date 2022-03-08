@@ -44,11 +44,28 @@ a:active{
   color:#242294;
 }
 
+
 @media only screen and (max-width: 450px)
 {
-  .flexbox-container{
+  .flexbox-container
+  {
     display: inline-flex;
     flex-direction: column;
+    flex-wrap: wrap;
     max-width: 450px;
+  }
+  .flexbox-item-1
+  {
+    font-size: 1.25em;
+  }
+  .flexbox-item-3
+  {
+    font-size: 1.25em;
+    text-align: center;
+  }
+  .flexbox-item-5
+  {
+    font-size: 1.25em;
+    text-align: center;
   }
 }
