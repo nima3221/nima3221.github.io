@@ -44,9 +44,62 @@ a:active{
   color:#242294;
 }
 
-@media only screen and (max-width 600px){
-  h1
+@media only screen and (max-width: 430px)
+{
+  .flexbox-container
   {
-    color: blue;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 430px;
+  }
+  .flexbox-item-1
+  {
+    font-size: 1.25em;
+  }
+  .flexbox-item-3
+  {
+    font-size: 1.25em;
+    text-align: center;
+  }
+  .flexbox-item-5
+  {
+    font-size: 1.25em;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1850px)
+{
+  .flexbox-container
+  {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width: 1850px;
+  }
+  .flexbox-item-0
+  {
+    font-size: 2em;
+  }
+  .flexbox-item-1
+  {
+    font-size: 2em;
+  }
+  .flexbox-item-2
+  {
+    font-size: 2em;
+  }
+  .flexbox-item-3
+  {
+    font-size: 2em;
+  }
+  .flexbox-item-4
+  {
+    font-size: 2em;
+  }
+  .flexbox-item-5
+  {
+    font-size: 2em;
   }
 }
