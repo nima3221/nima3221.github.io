@@ -68,3 +68,38 @@ a:active{
     text-align: center;
   }
 }
+
+@media only screen and (max-width: 1900px)
+{
+  .flexbox-container
+  {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 1900px;
+  }
+  .flexbox-item-0
+  {
+    font-size: 2em;
+  }
+  .flexbox-item-1
+  {
+    font-size: 2em;
+  }
+  .flexbox-item-2
+  {
+    font-size: 2em;
+  }
+  .flexbox-item-3
+  {
+    font-size: 2em;
+  }
+  .flexbox-item-4
+  {
+    font-size: 2em;
+  }
+  .flexbox-item-5
+  {
+    font-size: 2em;
+  }
+}
