@@ -1,0 +1,32 @@
+h1{
+  font-family:ubuntu;
+}
+h2, h3, h4, h5, h6{
+  font-family:ubuntu;
+}
+span{
+  color:#C01616;
+}
+p{
+  font-family:ubuntu;
+}
+a.solid{
+  border-style:solid;
+}
+a:link{
+  font-family:ubuntu;
+  text-decoration: none;
+  color:#C01616;
+}
+
+a:visited{
+  color:#929292;
+}
+
+a:hover{
+  color:#242294;
+}
+
+a:active{
+  color:#242294;
+}
