@@ -68,37 +68,78 @@ div
 {
   .flexbox-container
   {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 430px;
   }
   .flexbox-item-0
   {
-    font-size: 1.5em;
+    position:relative;left:-60px;
+    text-align: center;
+  }
+  .flexbox-item-1
+  {
+    position:relative;left:-280px;top:-100px;
+    font-size: 1.25em;
+  }
+  .flexbox-item-2
+  {
+    position:relative;left:-70px;top:60px
+  }
+  .flexbox-item-3
+  {
+    text-align: center;
+    font-size: 0.75em;
+  }
+  .flexbox-item-4
+  {
+    width: 430px
+    height:500px:
+    position:relative;left:-500px;
+  }
+}
+
+@media only screen and (min-width: 1000px)
+{
+  .flexbox-container
+  {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width: 1000px;
+  }
+  .home
+  {
+    position:relative;left:390px;
+  }
+  .aboutme
+  {
+    position:relative;left:490px;top:-38px;
+  }
+  .resume2
+  {
+    position:relative;left:630px;top:-79px;
+  }
+  .works
+  {
+    position:relative;left:750px;top:-120px;
   }
   .flexbox-item-1
   {
     width: 50%;
     height: 500px;
     float: left;
-    position:relative;left:-80px;
-    font-size: 1.5em;
   }
   .flexbox-item-2
   {
-    margin-left: 50%;
-    height: 500px;
-    position:relative;left:-90px;top:500px;
-    width: 2.5em;
+    margin-left: 50%; height: 500px;
+    position:relative;left:100px;
   }
   .flexbox-item-3
   {
-    text-align: center;
-  }
-  .flexbox-item-4
-  {
-    length=1000px;
-    width=1000px;
+    width: 50%;
+    height: 500px;
+    float: left;
   }
 }
