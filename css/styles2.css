@@ -37,7 +37,7 @@ a:active{
 {
   color:#929292;
   border-bottom: solid;
-  border-bottom-color: #242294; 
+  border-bottom-color: #242294;
 }
 
 .resume
@@ -62,4 +62,43 @@ body
 div
 {
   font-color: white;
+}
+
+@media only screen and (max-width: 430px)
+{
+  .flexbox-container
+  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 430px;
+  }
+  .flexbox-item-0
+  {
+    font-size: 1.5em;
+  }
+  .flexbox-item-1
+  {
+    width: 50%;
+    height: 500px;
+    float: left;
+    position:relative;left:-80px;
+    font-size: 1.5em;
+  }
+  .flexbox-item-2
+  {
+    margin-left: 50%;
+    height: 500px;
+    position:relative;left:-90px;top:500px;
+    width: 2.5em;
+  }
+  .flexbox-item-3
+  {
+    text-align: center;
+  }
+  .flexbox-item-4
+  {
+    length=1000px;
+    width=1000px;
+  }
 }
