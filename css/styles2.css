@@ -1,8 +1,10 @@
 h1{
   font-family:ubuntu;
+  color: white;
 }
 h2, h3, h4, h5, h6{
   font-family:ubuntu;
+  color: white;
 }
 span{
   color:#C01616;
@@ -20,13 +22,44 @@ a:link{
 }
 
 a:visited{
-  color:#929292;
+  color:#C01616;
 }
 
 a:hover{
-  color:#242294;
+  color:#929292;
 }
 
 a:active{
   color:#242294;
+}
+
+.selected
+{
+  color:#929292;
+  border-bottom: solid;
+  border-bottom-color: #242294; 
+}
+
+.resume
+{
+  length:700px;
+  width:500px;
+  border: solid 5px;
+  border-color: #242294;
+  position:relative;left:410px;
+}
+
+.center
+{
+  position:relative;left:410px;
+}
+
+body
+{
+  background-color: black;
+}
+
+div
+{
+  font-color: white;
 }
