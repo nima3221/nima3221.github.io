@@ -64,6 +64,26 @@ div
   border-color: #242294;
 }
 
+.pressButton
+{
+  border: 2px solid #008000;
+  background: #32CD32;
+  color: #008000;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.dontPressButton
+{
+  border: 2px solid #8B0000;
+  background: #FF0000;
+  color: #8B0000;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 501px)
 {
   .wrapper
@@ -79,7 +99,7 @@ div
     display:grid;
     height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.25fr 1fr 1fr;    
+    grid-template-rows: 0.25fr 1fr 1fr;
   }
 
   .box1
