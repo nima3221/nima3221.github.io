@@ -19,3 +19,15 @@ function updateFail ()
    const name4 = document.getElementById('name4');
    name4.textContent = 'THAT';
 }
+
+const newPara = document.getElementById('clickButton')
+
+newPara.addEventListener('click', updateSuccess);
+
+function updateSuccess ()
+{
+  var img = document.createElement('img');
+  img.src = '../img/congrats.jpg';
+  var block = document.getElementById('theBody');
+  block.appendChild(img);
+}
