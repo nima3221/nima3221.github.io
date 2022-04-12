@@ -117,6 +117,9 @@ body
 {
   text-align: center;
   background-color: white;
+  margin-left: 300px;
+  margin-right: 300px;
+  position:relative;top:550px;
 }
 
 .container
