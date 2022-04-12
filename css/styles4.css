@@ -113,6 +113,12 @@ body
   cursor: not-allowed;
 }
 
+.paragraph
+{
+  text-align: center;
+  border: 5px blue;
+}
+
 .container
 {
   height: 20px;
