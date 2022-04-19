@@ -31,7 +31,21 @@ span{
 }
 p{
   font-family:ubuntu;
+  color: white;
+  padding: 10px;
+  visibility: hidden;
+  border: 5px solid #242294;
 }
+div
+{
+  font-family:ubuntu;
+  padding-bottom: 20px;
+  color: white;
+}
+input[type="text"] {
+      padding: 5px;
+      width: 150px;
+    }
 a.solid{
   border-style:solid;
 }
@@ -67,6 +81,7 @@ a:active{
 body
 {
   background-color: black;
+  width: 350px;
 }
 
 .quotes {
