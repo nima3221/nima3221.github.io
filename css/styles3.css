@@ -43,6 +43,43 @@ div
   color: black;
 }
 
+label
+{
+  position: absolute;
+  width: 45px;
+  height: 22px;
+  right: 20px;
+  top: 20px;
+  border: 2px solid;
+  border-radius: 20px;
+}
+
+label:before
+{
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  left: 1px;
+  top: 1px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #000000;
+  transition: 0.4s;
+}
+
+label.active:before
+{
+  left: 24px;
+  background: #ffffff;
+}
+
+body.night
+{
+  background: #000000;
+  color: #ffffff;
+}
+
 .logo
 {
   height: 500px;
@@ -84,6 +121,24 @@ div
   cursor: pointer;
 }
 
+.project2
+{
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.project1text
+{
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.project2text
+{
+  padding-top: 50px;
+  padding-left: 150px;
+}
+
 @media only screen and (min-width: 501px)
 {
   .wrapper
@@ -117,6 +172,10 @@ div
   {
     grid-row: 2;
     margin-top: 5em;
+  }
+  .box3
+  {
+    padding-left: 100px;
   }
   .box5
   {
