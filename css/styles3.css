@@ -22,25 +22,25 @@ a:link{
 }
 
 a:visited{
-  color:#C01616;
+  color:#545e75;
 }
 
 a:hover{
-  color:#929292;
+  color:#e88873;
 }
 
 a:active{
-  color:#242294;
+  color:#e88873;
 }
 
 body
 {
-  background-color: black;
+  background-color: #95b2b8;
 }
 
 div
 {
-  font-color: white;
+  color: black;
 }
 
 .logo
@@ -53,7 +53,7 @@ div
 {
   color:#929292;
   border-bottom: solid;
-  border-bottom-color: #242294;
+  border-bottom-color: #8a0c0c;
 }
 
 .resume
@@ -92,6 +92,7 @@ div
     height: 100vh;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.25fr 1fr;
+    width: 100%;
   }
 
   .wrapper2
@@ -139,6 +140,7 @@ div
     height: 100vh;
     grid-template-columns: 1fr;
     grid-template-rows: 0.25fr 1fr 1fr;
+    width: 100%;
   }
   .box1
   {
