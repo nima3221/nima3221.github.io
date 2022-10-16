@@ -47,7 +47,7 @@ ol {list-style:none;}
 .column-1
 {
   max-width: 180px;
-  color: #5e1b21;
+  color: #E6723F;
 }
 
 .column-2
@@ -75,31 +75,31 @@ figcaption
 h1, h2, h3
 {
   font-family: 'Abyssinica SIL';
-  color: #5e1b21;
+  color: #E6723F;
 }
 
 a:link
 {
-  color: #3b1e08;
+  color: #FADE74;
 }
 
 a:visited
 {
-  color: #847464;
+  color: #FAE8E5;
 }
 
 a:hover
 {
-  color: #d23342;
+  color: #FFA545;
 }
 a:active
 {
-  color: #d23342;
+  color: #FFA545;
 }
 
 body
 {
-  background-color: #c5a68f;
+  background-color: #EBC596;
 }
 
 .sr-only {
