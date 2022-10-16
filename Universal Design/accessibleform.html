@@ -4,16 +4,22 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/accessibleform.css">
     <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Accessible Form</title>
   </head>
   <body>
     <header>
-      <h1>How To Make a Protein Shake for Bulking</h1>
+      <div id="skiptocontent">
+        <a href="#maincontent">skip to main content</a>
+      </div>
+      <h1 id="maincontent">How To Make a Protein Shake for Bulking<span class="material-symbols-outlined" aria-hidden="true">accessibility</span></h1>
     </header>
     <main>
       <p>If you're going to the gym and you're trying to bulk, then you know you need to consume a LOT of calories and protein daily in order to make proper gains. Here is a simple protein shake recipe that's easy to make, easy to consume, and will contribute a significant portion of your daily calorie and protein intake.</p>
       <section>
-        <h2>Ingredients</h2>
+        <h2>Ingredients<span class="material-symbols-outlined" aria-hidden="true">garden_cart</span></h2>
         <table>
           <thead>
             <tr>
@@ -44,30 +50,32 @@
         </table>
       </section>
       <section>
-        <h2>Instructions</h2>
+        <h2>Instructions<span class="material-symbols-outlined" aria-hidden="true">egg_alt</span></h2>
         <p>1. Put protein powder, oatmeal, and milk into your blender</p>
-        <p>2. cut banana into decently small pieces and place it into your blender</p>
+        <p>2. Cut banana into decently small pieces and place it into your blender</p>
         <p>3. Blend until the mixture looks liquid and there are no discernable solid chunks</p>
         <p>4. Open blender and put peanut butter in, then blend for another few minutes</p>
         <p>5. Enjoy!</p>
       </section>
       <!--<button type=“submit” onClick=“submitForm();”>Submit</button>-->
       <!--<div tabindex=“0”>Lullabot is awesome!</div>-->
-      <form action="#" method="post">
-        <fieldset>
-          <legend><h3>Subscribe for more cooking recipes</h3></legend>
+      <section>
+        <form action="#" method="post">
+          <fieldset>
+            <legend><h3>Subscribe for more cooking recipes</h3></legend>
 
-          <label for="addName">Full Name: </label>
-          <input type="text" name="userName" id="addName">
-          <br aria-hidden="true">
-          <br>
-          <label for="addEmail">Email: </label>
-          <input type="text" name="userEmail" id="addEmail">
-          <br aria-hidden="true">
-          <br>
-          <input type="submit" value="Subscribe">
-        </fieldset>
-      </form>
+            <label for="addName">Full Name: </label>
+            <input type="text" name="userName" id="addName">
+            <br aria-hidden="true">
+            <br>
+            <label for="addEmail">Email: </label>
+            <input type="text" name="userEmail" id="addEmail">
+            <br aria-hidden="true">
+            <br>
+            <input type="submit" value="Subscribe">
+          </fieldset>
+        </form>
+      </section>
     </main>
     <footer></footer>
   </body>
