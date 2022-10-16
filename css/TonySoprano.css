@@ -80,7 +80,7 @@ h1, h2, h3
 
 a:link
 {
-  color: #FADE74;
+  color: #FFA545;
 }
 
 a:visited
@@ -90,11 +90,11 @@ a:visited
 
 a:hover
 {
-  color: #FFA545;
+  color: #FADE74;
 }
 a:active
 {
-  color: #FFA545;
+  color: #FADE74;
 }
 
 body
