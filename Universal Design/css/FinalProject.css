@@ -1,0 +1,137 @@
+body
+{
+
+}
+
+h1,h2,h3,h4
+{
+  font-family: 'Abyssinica SIL';
+  padding: 1.3em;
+}
+
+h2
+{
+  text-align: center;
+}
+
+p
+{
+  font-family: 'Noto Sans';
+  font-size: 1.5em;
+  text-align: center;
+}
+
+a
+{
+  font-family: 'Noto Sans';
+}
+
+ul
+{
+  list-style:none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+header, main, aside, nav, footer
+{
+  padding: 1.5em;
+  border: 3px solid white;
+  border-radius: 20px;
+}
+
+header, footer
+{
+  text-align: center;
+}
+
+header
+{
+  grid-area: head;
+  background-color: #D69551;
+}
+
+nav
+{
+  grid-area: navig;
+  background-color: #35D62D;
+}
+
+main
+{
+  grid-area: mainstuff;
+  background-color: #D69551;
+}
+
+.aside-1
+{
+  grid-area: aside1;
+  background-color: #F09494;
+}
+
+.aside-2
+{
+  grid-area: aside2;
+  background-color: #F09494;
+}
+
+footer
+{
+  grid-area: foot;
+  background-color: gray;
+}
+
+.containerHow
+{
+  display: grid;
+  grid-row-gap: 10px;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "head head"
+    "navig navig"
+    "mainstuff aside2"
+    "foot foot"
+}
+
+@media screen and (min-width: 641px) and (max-width: 900px)
+{
+  .containerHow
+  {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "head head"
+      "navig navig"
+      "mainstuff aside2"
+      "foot foot"
+  }
+}
+
+@media screen and (max-width: 640px)
+{
+  .containerHow
+  {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "head"
+      "navig"
+      "mainstuff"
+      "aside2"
+      "foot"
+  }
+
+  ul
+  {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 10px;
+  }
+  li
+  {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+  }
+}
